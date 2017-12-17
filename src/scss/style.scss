@@ -1,0 +1,184 @@
+$primary-color: #2ebaee;
+
+html, body {
+  font-family: 'Lato', sans-serif !important;
+}
+.navbar {
+  min-height: 70px;
+  z-index: 10;
+}
+
+.hero {
+  background: url("..//img/home.jpg") center center no-repeat;
+  height: 660px;
+  -webkit-background-size: cover;
+          background-size: cover;
+  margin-top: -71px;
+}
+.shadow {
+  background-color: rgba(0, 0, 0, .7);
+  height: 660px;
+}
+.nav-op {
+  background-color: rgba(0, 0, 0, .5);
+}
+.padding-top-big {
+  margin-top: 280px;
+}
+
+.white {
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-link {
+  margin-left: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: $primary-color;
+    padding-bottom: 5px;
+  border-bottom: 1px solid $primary-color;
+}
+
+.primary-color {
+  color: $primary-color;
+}
+
+.btn-primary-color {
+  background-color: $primary-color;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-round {
+  padding: 10px 40px;
+  border-radius: 30px;
+}
+
+.clip-path {
+  height: 50px;
+  background-color: $primary-color;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+
+.clip-path-2 {
+  height: 50px;
+  background-color: $primary-color;
+  -webkit-clip-path: polygon(0 0, 1000% 100%, 100% 0);
+  clip-path: polygon(0 0, 100% 100%, 100% 0);
+}
+.clip-path-shadow {
+  height: 50px;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.4));
+}
+
+.black {
+  color: #505050;
+}
+
+.be-part-of-us {
+  height: 120px;
+  background-color: $primary-color;
+  position: relative;
+}
+
+.part-of-us-text {
+  display: inline-block;
+}
+
+.margin-0 {
+  margin: 0px;
+}
+
+.position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+}
+
+.btn-white {
+  color: #505050;
+  background-color: #fff;
+}
+
+.btn-of-us {
+  margin-left: 50px;
+  margin-bottom: 9px;
+}
+
+.powerfull {
+  background-color: #f4f4f4;
+  position: relative;
+}
+
+.margin-100 {
+  margin-top: 100px;
+}
+
+.parallax {
+  /* The image used */
+  // background: url("..//img/home.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url("..//img/home.jpg");
+
+  /* Set a specific height */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -50px;
+  
+}
+
+.padding-100 {
+  padding: 150px 0 100px 0;
+}
+
+
+
+
+
+
+.serviceBox{
+    text-align: center;
+    margin-top: 20px;
+}
+.serviceBox .service-icon{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 70px;
+    border-radius: 50% 0 50% 50%;
+    border: 5px solid $primary-color;
+    font-size: 30px;
+    color: $primary-color;
+    margin-bottom: 30px;
+    transform: rotate(-45deg);
+    transition:all 0.3s ease 0s;
+}
+.serviceBox:hover .service-icon{
+    border-radius: 50% 50% 50% 0;
+}
+.serviceBox .service-icon i{
+    transform: rotate(45deg);
+}
+.serviceBox .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+.serviceBox .description{
+    font: 13px;
+    color: #fff;
+    line-height: 25px;
+    transition: all 300ms ease 0s;
+}
+
